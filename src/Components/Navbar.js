@@ -11,7 +11,7 @@ return(
   <Navbar.Brand href="#home" className="logo">
     <img
       alt=""
-      src="https://res.cloudinary.com/dlnshpfdv/image/upload/v1702520440/Screenshot_2023-11-24_12.12.57_PM_eerbas.png"
+      src="https://asset.cloudinary.com/dlnshpfdv/f3d0cc23cc8fd4066752cfd2ac80f81b"
       width="90"
       height="90"
       className="d-inline-block align-top"
