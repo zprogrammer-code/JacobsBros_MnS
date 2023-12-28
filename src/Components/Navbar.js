@@ -6,18 +6,17 @@ const Jbnavbar = () => {
 
 return(
 <>
-<Navbar className="nav-brand">
-<Container>
+<Navbar >
+<Container className="navbar">
   <Navbar.Brand href="#home" className="logo">
     <img
       alt=""
-      src="https://asset.cloudinary.com/dlnshpfdv/f3d0cc23cc8fd4066752cfd2ac80f81b"
-      width="90"
-      height="90"
-      className="d-inline-block align-top"
+      src="https://res.cloudinary.com/dlnshpfdv/image/upload/v1703784466/Jacobs_Brothers_Moving_asnd_storage_3_dvfifr.png"
+      width="180"
+      height="180"
+      className="brand"
     />{' '}
     <div className="title-center">
-    JacobsBro's Moving & Storage
     </div>
   </Navbar.Brand>
   </Container>

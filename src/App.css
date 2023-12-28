@@ -1,40 +1,51 @@
 
-.nav-brand{
+.navbar{
   flex-direction: column;
   justify-content: center;
   display: flex;
-  background-color: rgb(153, 153, 255);
+}
+
+.brand{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
 }
 
 .logo{
   display: flex;
   justify-content: center;
-  margin-top: 60px;
-  margin-left: 40px;
+  margin-top: 20px;
+ 
   margin-bottom: 20px;
   font-size: 50px;
   text-decoration: none;
   font-weight: 600;
-  color: white;
 }
 
+.title-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
 .nav-link{
   display: flex;
   flex-direction: column;
   margin-top: 15px;
   margin-left: 50px;
-  color: white;
+  background-color: rgb(153, 153, 255);
  
 }
 
 .hero-section{
   display: flex;
-  justify-content: center;
   margin-left: 70px;
-  margin-top: 70px;
 }
 
 .hero-pic{
+  display: flex;
+  justify-content: flex-start;
   box-shadow: 1px 1px 0px 1px lightblue;
     height: 700px;
   width: 800px;
@@ -42,5 +53,17 @@
 
 .hero-info{
   display: flex;
+  flex-direction: column;
+  width: 800px;
+}
 
+.hero-info-button{
+  margin-top: 150px;
+  margin-left: 100px;
+  height: 60px;
+  width: 400px;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(153, 153, 255);
+border-radius: 30%;
 }
